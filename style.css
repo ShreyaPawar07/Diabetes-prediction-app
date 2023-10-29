@@ -1,0 +1,22 @@
+body {
+    background-color:lightblue;
+  }
+
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    text-decoration-color: rgb(213, 129, 2);
+}
+
+#title{
+    text-align: center;
+  color: red;
+}
+
+#objects{
+    box-sizing: content-box;
+   text-align: center;
+   position: relative;
+   margin: auto;
+   border: 10cap;
+}

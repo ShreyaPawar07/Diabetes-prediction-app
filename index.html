@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Diabetes Predictor app</title>
+</head>
+<body> <div id="title">
+    <h1>Student Placement Predictor</h1>
+</div>
+
+<div id="objects">
+    <form method="POST" , action="/predict">
+        <!-- <label >Pregnancies</label><br> -->
+        <!-- <input type="number" id="Pregnancies" value="Pregnancies"><br><br> -->
+        <label for="">Glucose</label><br>
+        <input type="number" name="Glucose" id="Glucose" value="Glucose"><br><br>
+        <!-- <label for="">BloodPressure</label><br> -->
+        <!-- <input type="number" name="BloodPressure" id="BloodPressure" value="BloodPressure"><br><br> -->
+        <label for="">SkinThickness</label><br>
+        <input type="number" name="SkinThickness" id="SkinThickness" value="SkinThickness"><br><br>
+        <label for="">Insulin</label><br>
+        <input type="number" name="Insulin" id="Insulin" value="Insulin"><br><br>
+        <!-- <label for="">BMI</label><br> -->
+        <!-- <input type="number" name="BMI" id="BMI" value="BMI"><br><br> -->
+        <!-- <label for="">DiabetesPedigreeFunction</label><br> -->
+        <!-- <input type="number" name="DiabetesPedigreeFunction" id="DiabetesPedigreeFunction" value="DiabetesPedigreeFunction" -->
+        <!-- min="0" max="1000" step="0.01"><br><br> -->
+        <label for="">Age</label><br>
+        <input type="number" name="Age" id="Age"><br><br>
+
+        <input type="submit" name="predict" id="predict">
+    </form>
+</div>
+</body>
+</html>
